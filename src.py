@@ -1,7 +1,7 @@
 from random import randint, choice
 
 class Deck(object):
-    """Deck is a class one attribute: cards.  This is where one can choose the set
+    """Deck is a class with one attribute: cards.  This is where one can choose the set
    of cards/value that will make up the Players' hands and the prize deck. The
    standard deck is a full suit: values 1 through 13 (i.e. range(1,14).  The
    Player class has an attribute called 'hand', which is a Deck object. Prize is
